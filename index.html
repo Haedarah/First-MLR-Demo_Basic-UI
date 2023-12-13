@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Training Dapp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="background-image"></div>
+  
+  <h1 class="intro">Multi Layer Referral System <strong>UI</strong> - First Attempt</h1>
+  <br>
+
+  <h1 class="subIntro">Hello! Please connect your wallet to get started &#128516;</h1>
+  <button class="connectButton" id="connectButton">CONNECT</button>
+  <br><br>
+
+  <h1 class="subIntro">After connection, Please enter the address of your referrer and enjoy discounted prices</h1>
+  <label class="labels">The address of your referrer: </label>
+  <input type="textbox" class="textBox" id="add1" placeholder="0x1u71....884A">
+  <br><br>
+  
+  <h1 class="subIntro">Services you can purchase:</h1><br>
+  <button class="options" id="b1">- Service(A) -<br><br>Price: <strong>0.1</strong> ETH</button>
+  <button class="options" id="b2">- Service(B) -<br><br>Price: <strong>0.15</strong> ETH</button>
+  <button class="options" id="b3">- Service(C) -<br><br>Price: <strong>0.2</strong> ETH</button>
+  <br><br>
+
+  <h1 class="subIntro">The Service that you chose: </h1>
+  <div id="currentChoice" class="labels"> - Nothing is selected yet - </div><br>
+  <button class="submitButton" id="s1">Submit</button>
+  <br><br>
+
+  <hr><br>
+
+  <label class="labels">Set Company (callable by Owner): </label>
+  <input type="textbox" class="textBox" id="add2" placeholder="0x1u71....884A">
+  <button class="submitButton" id="s2">Submit</button><br><br>
+
+  <label class="labels">Set Root (callable by Owner): </label>
+  <input type="textbox" class="textBox" id="add3" placeholder="0x1u71....884A">
+  <button class="submitButton" id="s3">Submit</button>
+  
+  <script type="module" src="index.js"></script>
+</body>
+
+</html>

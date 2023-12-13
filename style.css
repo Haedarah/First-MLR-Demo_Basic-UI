@@ -1,0 +1,118 @@
+.background-image
+{
+    background-image: url('photos/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* This is the key property for a fixed background */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Place the background behind other content */
+    filter: brightness(30%);
+}
+
+.intro
+{
+    color: #cccccc;
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+}
+
+.connectButton
+{
+    width: 180px;
+    height: 52px;
+    background-color: rgb(242, 118, 128);
+    font-size: 22px;
+    border-color: grey;
+    border-width:1px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-style: solid;
+    transition:0.15s;
+}
+.connectButton:hover
+{
+    opacity: 0.8;
+    transition:0.15s;
+}
+
+.connectButton:active
+{
+    opacity: 0.6;
+}
+
+.subIntro
+{
+    color: #6eb5ff; /* Hex code for light blue */
+    width: 800px;
+}
+
+.labels
+{
+    color: #cccccc;
+    font-size: 24px;
+}
+
+.textBox
+{
+    height: 50px;
+    width: 600px;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+}
+
+.submitButton
+{
+    width: 120px;
+    height: 52px;
+    background-color: rgb(139, 206, 139);
+    font-size: 22px;
+    border-color: grey;
+    border-width:1px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-style: solid;
+    transition:0.15s;
+}
+
+.submitButton:hover
+{
+    opacity: 0.8;
+    transition:0.15s;
+}
+
+.submitButton:active
+{
+    opacity: 0.6;
+}
+
+.options
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 24px;
+    border-radius: 25px;
+    cursor: pointer;
+    border:solid;
+    border-color:black;
+    border-width: 5px;;
+    transition: 0.15s;
+}
+
+.options:hover
+{
+    border: solid;
+    border-width: 5px;
+    border-color: green;
+    transition: 0.15s;
+    padding-right:30px;
+    padding-left:30px;
+}
